@@ -42,7 +42,13 @@ body{
     padding-bottom: 50px;
 }
 
-
+ .fa{
+    font-size: var(--icon-font-size);
+    background: #333;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
 
 @media(max-width:768px){
     #home-section h1{
