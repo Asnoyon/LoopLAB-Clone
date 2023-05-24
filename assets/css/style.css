@@ -7,30 +7,37 @@
 body{
     background:var(--body-bg);
     color: var(--font-color);
+    font-family: 'Open Sans', sans-serif;
+  
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
 
 .navbar{
     border-bottom: 3px solid var(--primary-color);
     background: #292b2c;
     opacity: 0.7;
 }
+.navbar .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+}
+
 .navbar .navbar-brand,.navbar-nav .nav-link{
     color: #FFC000;
     margin: 10px;
     border-radius: 5px;
     transition: .4s;
 }
-/* .navbar-toggler{
-    background-color: var(--primary-color);
-} */
+
 .navbar-toggler {
     background-color: var(--primary-color);
-    color: rgba(0,0,0,.5);
     border-color: rgba(0,0,0,.1);
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 .nav-link:hover{
     color: white;
@@ -41,7 +48,7 @@ body{
 
 
 #home-section{
-    background: url(../img/home.jpg) no-repeat center top;
+    background: url(../img/home2.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     min-height: 700px;
